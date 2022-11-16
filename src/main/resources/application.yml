@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: @profiles.active@
+  application:
+    name: flyway
+server:
+  port: 12700
+
