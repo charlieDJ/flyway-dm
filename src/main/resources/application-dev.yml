@@ -9,7 +9,7 @@ spring:
     # 启用或禁用 flyway
     enabled: true
     # SQL 脚本的目录,多个路径使用逗号分隔 默认值 classpath:db/migration
-    locations: classpath:db/migration
+    locations: classpath:db/migration/**/*.sql
     #  metadata 版本控制信息表 默认 flyway_schema_history
     table: flyway_schema_history
     # 如果没有 flyway_schema_history 这个 metadata 表， 在执行 flyway migrate 命令之前, 必须先执行 flyway baseline 命令

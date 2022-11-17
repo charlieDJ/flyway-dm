@@ -1,4 +1,4 @@
-package com.glaway.flyway.config;
+package com.example.flyway.config;
 
 import org.springframework.data.relational.core.dialect.AnsiDialect;
 import org.springframework.data.relational.core.dialect.ArrayColumns;

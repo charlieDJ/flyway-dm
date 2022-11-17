@@ -1,4 +1,4 @@
-package com.glaway.flyway.config;
+package com.example.flyway.config;
 
 import org.springframework.data.jdbc.repository.config.DialectResolver;
 import org.springframework.data.relational.core.dialect.Dialect;

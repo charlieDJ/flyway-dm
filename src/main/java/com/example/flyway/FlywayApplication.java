@@ -1,4 +1,4 @@
-package com.glaway.flyway;
+package com.example.flyway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
